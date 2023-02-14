@@ -1,0 +1,73 @@
+.container {
+    max-width: 1140px !important;
+    margin: auto !important;
+    padding-bottom: 50px;
+}
+a{
+    text-decoration: none !important;
+}
+.head {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #26272b;
+    box-shadow:  0 0 10px #18191b;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.head p {
+    color: white;
+    font-weight: bold;
+    padding-top: 16px;
+}
+.coin-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #26272b;
+    border-radius: 10px;
+    box-shadow: 0 0 10px  #18191b;
+    margin-top: 30px;
+    transition: 0.5s all;
+    color: white;
+    font-weight: bold;
+}
+.coin-row:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+    background-color: rgb(255, 160, 18);
+    box-shadow: 0 0 10px  white;
+    color: #26272b;
+}
+.image-coin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.coin-row img {
+    width: 35px;
+}
+.coin-row p {
+    padding-top: 16px;
+}
+.coin-row > div ,
+.coin-row > p {
+    margin-left: 30px;
+}
+.text-secondary:hover {
+    color: rgb(219, 134, 37) !important;
+}
+button {
+    border-radius: 10px !important;
+    padding: 5px 20px;
+    background-color: #26272b;
+    border: 1px solid white;
+    color: white;
+    transition: 0.5s all;
+}
+button:hover {
+    background-color: white;
+    color: #26272b;
+}

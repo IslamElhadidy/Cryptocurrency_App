@@ -1,0 +1,25 @@
+a{
+    text-decoration: none;
+}
+.app {
+    background-color: #333;
+}
+
+.navbar .icon {
+    font-size: 70px;
+    color: rgb(255, 160, 18);
+}
+.navbar h1 {
+    color: white;
+    padding-top: 30px;
+}
+.navbar h1 span {
+    color: rgb(255, 160, 18);
+}
+.navbar  {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 20px;
+    
+}

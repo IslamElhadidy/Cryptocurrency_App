@@ -1,0 +1,51 @@
+
+.details h1 {
+    text-transform: uppercase;
+}
+.content {
+    max-width: 740px;
+    margin: 20px auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: #26272b;
+    box-shadow:  0 0 10px #18191b;
+    color: white;
+}
+.content h1 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0 0 0;
+}
+.rank  {
+    padding: 10px 0 30px 0;
+}
+.rank span {
+    background-color: rgb(255, 187, 0);
+    padding: 6px;
+    box-shadow: 0 0 5px rgb(200, 200, 224);
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+.info .heading {
+    display: flex ;
+    text-align: center;
+    gap: 20px;
+}
+.info .heading p {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.about h3 {
+
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.about p,
+.about a  {
+    color: white;
+}
